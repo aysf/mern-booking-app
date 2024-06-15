@@ -9,7 +9,7 @@ mongoose.connect(process.env.MONGGODB_CONN_STRING as string)
 
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({extended: true, type: "application/json"}));
 app.use(cors())
 
 // Define routes and middleware here

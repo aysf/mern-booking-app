@@ -30,7 +30,6 @@
 1. delete folder frontend if necessary
 2. run `npm create vite@latest`
 3. input `frontend` as name project, choose `react` and `Typescript + SWC`
-4. 
 
 ## mongodb
 
@@ -44,4 +43,9 @@
 1. go to frontend, run `npm install -D tailwindcss postcss autoprefixer`
 2. run `npx tailwindcss init -p`
 
-note: why SWC? because it make build faster 2JuONRtcGpl0XGuk
+# Note
+
+- why SWC? because it make build faster 2JuONRtcGpl0XGuk
+- [BUG] [Express.js] password validator too strong and doesn't complain if the requirement not satisfy
+- [BUG] [frontend] password can be seen at inspect browser ![1718427181792](image/README/1718427181792.png)
+-
